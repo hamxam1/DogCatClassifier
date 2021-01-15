@@ -16,7 +16,7 @@ python train.py
  CUSTOM DATASET FOR CLASSIFICATION:
 
 If you want to add new dataset to datasets, you create a directory and rename what you want to add category (like 'cat' or 'phone').
-
+Add new images for training at \DogCatClassifier-main\Data\Train_Data\cat and \DogCatClassifier-main\Data\Train_Data\dog
 If you want to add a new training image to previously category datasets, you add a image to about category directory and if you have npy files in Data folder delete npy_train_data folder.
 Program automatically converts image to 64x64.
 
@@ -30,3 +30,4 @@ scikit-image
 tensorflow < =1.19
 keras
 h5py
+
